@@ -39,9 +39,9 @@ jobs:
       - name: Argo app Sync
         shell: bash
         run: |
-        curl -k -sSL -o argocd-linux-amd64 https://argocd-server.argocd/download/argocd-linux-amd64
-        chmod +x argocd
-        sudo mv ./argocd /usr/local/bin/argocd
+          curl -k -sSL -o argocd-linux-amd64 https://argocd-server.argocd/download/argocd-linux-amd64
+          chmod +x argocd
+          sudo mv ./argocd /usr/local/bin/argocd
 
       - name: Argo app Sync
         shell: bash
