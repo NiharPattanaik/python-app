@@ -5,6 +5,7 @@ metadata:
   description: Python app to test backstage.
   annotations:
     github.com/project-slug: NiharPattanaik/python-app
+    backstage.io/techdocs-ref: dir:.
 spec:
   type: service
   owner: development
